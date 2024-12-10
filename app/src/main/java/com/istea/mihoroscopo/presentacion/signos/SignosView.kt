@@ -82,6 +82,7 @@ fun ListaDeSignosView(signos: List<Signo>, onSelect: (Signo)->Unit){
             Card(
                 modifier = Modifier
                     .padding(horizontal = 20.dp)
+                    .padding(bottom = 20.dp)
                     .fillMaxWidth(),
                 colors = CardDefaults.cardColors(
                     contentColor = MaterialTheme.colorScheme.secondary,
