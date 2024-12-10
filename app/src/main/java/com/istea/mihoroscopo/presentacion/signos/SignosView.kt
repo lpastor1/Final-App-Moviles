@@ -95,7 +95,7 @@ fun ListaDeSignosView(signos: List<Signo>, onSelect: (Signo)->Unit){
                     verticalAlignment = Alignment.CenterVertically
                 ){
                     Image(
-                        painterResource(R.drawable.s001),
+                        painterResource(signo.iconId),
                         contentDescription = "",
                         contentScale = ContentScale.Fit,
                         modifier = Modifier
