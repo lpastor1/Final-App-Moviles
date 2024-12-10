@@ -122,7 +122,7 @@ fun ListaDeSignosView(signos: List<Signo>, onSelect: (Signo)->Unit){
                         Text(
                             modifier = Modifier.padding(10.dp),
                             style = MaterialTheme.typography.bodyMedium,
-                            text = "Esta descripcion esta harcodeada"
+                            text = signo.descripcion
                         )
                     }
                 }
